@@ -82,7 +82,7 @@ def space_words(sentence):
 
 # get pinin from chinese text
 ################################################################################
-def get_pin_yin(text):
+def get_pinyin(text):
     p = Pinyin()
     pinyined = p.get_pinyin(text, splitter='', tone_marks='marks')
     return pinyined
